@@ -14,3 +14,13 @@ footer{border-top:1px solid var(--line);min-height:92px;display:flex;align-items
 @media(max-width:1100px){.page{padding:0 35px}.header-caption{display:none}.intro h1{font-size:72px}.collection{gap:16px}.card-title h2{font-size:23px}.card-body{padding:20px 17px}.card-title{flex-wrap:wrap}.card-body>p{min-height:100px}.card-foot{font-size:12px}.enter-key{display:none}}
 @media(max-width:760px){.page{padding:0 23px}.site-header{height:88px}.wordmark{font-size:28px}.header-link{font-size:12px}.intro{display:block;padding:44px 0 35px}.eyebrow{font-size:10px;letter-spacing:1.5px}.intro h1{font-size:68px;letter-spacing:-3px}.intro-bottom{margin-top:28px;gap:20px}.intro-bottom>p{font-size:16px;line-height:1.8}.intro-star{font-size:34px}.collection{grid-template-columns:1fr;gap:23px}.preview{aspect-ratio:1.65}.card-body{padding:22px}.card-title h2{font-size:29px}.era{font-size:12px}.card-body>p{font-size:16px;min-height:0;margin:14px 0 21px}.card-foot{font-size:12px}.enter-key{display:inline;font-size:9px}.preview-label{font-size:10px}.collection-note{padding:25px 0}.note-side{display:none}footer{gap:15px;font-size:11px;flex-wrap:wrap;padding:24px 0;min-height:100px}footer>span:not(.footer-spark){margin-left:0;flex-basis:100%;order:3}.footer-spark{margin-left:auto}.launch-label{display:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* The collection uses application names and functional descriptions only. */
+.intro{display:block;padding:50px 0 36px}
+.intro h1{font-size:64px;line-height:1.1;letter-spacing:-2.5px}
+.intro-description{font:16px/1.7 Arial,sans-serif;color:#a4abbe;margin:16px 0 0}
+.collection{margin-bottom:48px}
+.card-body>p{min-height:58px;margin:16px 0 20px}
+.card-foot{font-size:13px;color:#c4cbdc}
+.footer-spark{margin-left:auto}
+@media(max-width:760px){.intro{padding:36px 0 28px}.intro h1{font-size:44px;letter-spacing:-1.5px}.intro-description{font-size:16px}.card-body>p{min-height:0}.collection{margin-bottom:32px}}
